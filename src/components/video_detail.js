@@ -7,9 +7,7 @@ const VideoDetail = ({video}) => {
 	}
 
 	const videoId = video.id.videoId;
-
 	const url = 'https://www.youtube.com/embed/'+videoId;
-		console.log(url);
 
 	return (
 		<div className="video-detal col-md8">
