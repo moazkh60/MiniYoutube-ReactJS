@@ -1,9 +1,9 @@
 {
-  "name": "redux-simple-starter",
+  "name": "MiniYoutube-ReactJS",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "ReactJS app which fetches videos from youtube API and displays it to the user",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "repository": "git@github.com:moazkh60/MiniYoutube-ReactJS.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
@@ -25,6 +25,7 @@
     "react": "16.3.2",
     "react-dom": "16.3.2",
     "react-redux": "5.0.7",
-    "redux": "4.0.0"
+    "redux": "4.0.0",
+    "youtube-api-search": "0.0.5"
   }
 }
